@@ -37,12 +37,6 @@ A full-stack web application that uses deep learning to detect **IDC (Invasive D
 
 ---
 
-## 📸 Screenshots
-
-> (Add screenshots of your frontend upload page, prediction result, and PDF report here)
-
----
-
 ## 📦 Installation
 
 ### 🔧 Backend Setup
