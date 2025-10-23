@@ -9,8 +9,8 @@ import os
 
 router = APIRouter()
 
-SENDER_EMAIL = "project.test.g16@gmail.com"
-SENDER_PASSWORD = "xceo axzb secu rska" 
+SENDER_EMAIL = ""
+SENDER_PASSWORD = "" 
 @router.post("/send-email")
 async def send_email(data: dict, background_tasks: BackgroundTasks):
     recipient = data.get("email")
@@ -48,3 +48,4 @@ async def send_email(data: dict, background_tasks: BackgroundTasks):
 
     background_tasks.add_task(send_mail_task)
     return {"message": f"📧 Report sent to {recipient}"}
+
